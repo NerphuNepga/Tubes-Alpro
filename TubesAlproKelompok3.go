@@ -297,7 +297,7 @@ func hapusRekening(R *tabRekening, hitungR *int) {
 	}
 }
 
-func hapusTransaksi(R *tabRekening, hitungR int) {
+func hapusTransaksi(R *tabRekening, hitungR int) {	// Menghapus data transaksi pada sebuah akun rekening
 	var norek, tgl string
 	var index, i, j, k, l int
 	var found bool
